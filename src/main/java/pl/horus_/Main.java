@@ -4,9 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
-    // test data
-    private final static List<Block> blocks = new ArrayList<>();
-    private final static Wall wall = new Wall(blocks);
+    private static List<Block> blocks = new ArrayList<>();
+    private static Wall wall = new Wall(blocks);
 
     public static void main(String[] args) {
 
